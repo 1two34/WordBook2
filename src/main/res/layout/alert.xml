@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/edt_alert_word"
+        android:layout_margin="5dp"
+        android:hint="请输入单词"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/edt_alert_trans"
+        android:layout_margin="5dp"
+        android:hint="请输入汉语"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_alert_true"
+            android:layout_margin="5dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:text="确定"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_alert_false"
+            android:layout_margin="5dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:text="取消"/>
+    </LinearLayout>
+
+
+</LinearLayout>
